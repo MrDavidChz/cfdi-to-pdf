@@ -70,4 +70,5 @@ const createPDFServer = async (xml, options = {}) => {
   return doc;
 };
 
-module.exports = createPDFServer;
+//module.exports = createPDFServer;
+export default createPDFServer;
