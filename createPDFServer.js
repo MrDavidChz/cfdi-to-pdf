@@ -3,7 +3,7 @@ const PdfPrinter = require('pdfmake/src/printer');
 //const PdfPrinter =  require('./node_modules/pdfmake/src/printer');
 
 //const { cadenaOriginal } = require('validadorcfdi');
-const fs = require('fs');
+// const fs = require('fs');
 const util = require('util');
 
 const parseData = require('./parseData');
@@ -51,6 +51,7 @@ const defaultFonts = {
  * @param {Object} options options
  */
 const createPDFServer = async (xml, options = {}) => {
+  /*
   const parsedXML = await xml2js.parseStringPromise(xml);
   const jsonData = parseData(parsedXML);
   const trimmedXML = xml.trim();
@@ -68,6 +69,7 @@ const createPDFServer = async (xml, options = {}) => {
   }
 
   return doc;
+  */
 };
 
 //module.exports = createPDFServer;

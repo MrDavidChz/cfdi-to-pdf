@@ -1,4 +1,3 @@
-const createPDFClient = require('./createPDFClient');
-const createPDFServer = require('./createPDFServer');
+const cfdiToPDF = require('./cfdi-to-pdf');
 
-module.exports = { createPDFClient, createPDFServer };
+module.exports = { cfdiToPDF };
